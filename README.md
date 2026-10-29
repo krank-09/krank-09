@@ -1,23 +1,19 @@
-### Hi, I'm Kumar Ankit 👋
+## Kumar Ankit
 
-B.E. IT student building **machine-learning and quantitative systems** in Python, with an eye on doing it rigorously: no data leaks, honest baselines, reproducible results.
+I study IT at UIET, Panjab University, and Data Science at IIT Madras. Most of what I build is in Python and PyTorch, and I care about checking results properly: time-based splits, leak checks and comparing against a real baseline.
 
-**Currently:** looking for internships in ML / data / software engineering.
+I'm looking for ML, data or software engineering internships.
 
-#### Featured projects
+### Projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| [nse-algo-trading-system](https://github.com/krank-09/nse-algo-trading-system) | End-to-end NSE trading system: data pipeline → bias-free backtester with real Indian costs → paper trading → Streamlit dashboard → walk-forward ML (19.8% CAGR vs 10.4% NIFTY on a held-out 2022–25 window, after costs) | Python, pandas, scikit-learn, Streamlit, SQLite |
-| [dvhnet](https://github.com/krank-09/dvhnet) · [dosenet3d](https://github.com/krank-09/dosenet3d) | Radiotherapy dose prediction on the GDP-HMM head-and-neck dataset: 2D DVH-curve CNN and 3D U-Net dose model | PyTorch |
-| [geo-signage](https://github.com/krank-09/geo-signage) | Location-aware digital signage: content follows GPS geofences and keeps playing offline | FastAPI, React, Python agent |
-| [mnist-digit-classifier](https://github.com/krank-09/mnist-digit-classifier) | Handwritten digit recognition with TensorFlow/Keras | TensorFlow, NumPy |
-| [sales-data-analysis](https://github.com/krank-09/sales-data-analysis) | Cleaning, aggregation and visualisation of a retail sales dataset | pandas, seaborn |
+- **[nse-algo-trading-system](https://github.com/krank-09/nse-algo-trading-system)**: backtester and paper-trading system for NIFTY 50 stocks that charges real Indian trading costs. The walk-forward model returned 19.8% CAGR against 10.4% for the index on 2022–25 data it was never trained on.
+- **[rt-dose-prediction](https://github.com/krank-09/rt-dose-prediction)**: predicting radiotherapy dose for head-and-neck cancer from CT scans. It covers a 2D DVH network ([dvhnet](https://github.com/krank-09/dvhnet)) and a 3D U-Net ([dosenet3d](https://github.com/krank-09/dosenet3d)), both in PyTorch.
+- **[geo-signage](https://github.com/krank-09/geo-signage)**: digital signage that picks content based on where each screen is, and keeps playing when the internet drops. FastAPI, React and a Python device agent.
+- **[sequential-matching](https://github.com/krank-09/sequential-matching)**: my entry for the IIT Madras Sequential Matching hackathon, an online Bayesian matching policy with a written report.
+- **[dsa-and-cp](https://github.com/krank-09/dsa-and-cp)**: data structures practice and contest solutions, mostly C++.
 
-#### Tech
-**Languages:** Python · C · C++ · HTML/CSS
-**ML / data:** PyTorch · TensorFlow/Keras · scikit-learn · pandas · NumPy · matplotlib/seaborn
-**Tools:** Git · Streamlit · FastAPI · SQLite · Google Colab / Kaggle GPUs
+### Tools
 
-#### Contact
-💼 [LinkedIn](https://www.linkedin.com/in/kumar-ankit-it) · 📧 kr30ankit@gmail.com
+Python, C, C++, SQL · PyTorch, scikit-learn, pandas, NumPy · FastAPI, Streamlit, SQLite, Docker, Git
+
+[LinkedIn](https://www.linkedin.com/in/kumar-ankit-it) · kr30ankit@gmail.com
